@@ -1,0 +1,42 @@
+# Unity가 자동으로 만드는 폴더 (올리지 않음)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]serSettings/
+
+# IDE / 빌드 산출물
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# 모델 파일은 저장소에 포함하지 않음 (README의 '모델 준비' 참고)
+/Assets/model/
+/Assets/model.meta
+*.onnx
+*.pt
+
+# 기타
+*.apk
+*.aab
+*.unitypackage
+.DS_Store
+
+# Python 실행 중 생기는 파일
+__pycache__/
+last_crop.jpg
+piece_*.png
